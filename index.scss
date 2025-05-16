@@ -1,0 +1,14 @@
+@use './variables.scss' as *;
+@use './z-index.scss' as *;
+@use './animations.scss' as *;
+@use './components/terminal.scss' as *;
+@use './components/resize-handle.scss' as *;
+@use './components/code.scss' as *;
+@use './components/editor.scss' as *;
+@use './components/toast.scss' as *;
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
